@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_my_profile"
+            android:icon="@drawable/ic_drawer_user"
+            android:title="@string/my_profile">
+        </item>
+
+        <item
+            android:id="@+id/drawer_bar_chart"
+            android:icon="@drawable/ic_drawable_bar_chart"
+            android:title="@string/show_chart">
+        </item>
+
+        <item
+            android:id="@+id/drawer_sign_out"
+            android:icon="@drawable/ic_drawer_sign_out"
+            android:title="@string/sign_out">
+        </item>
+    </group>
+
+</menu>
